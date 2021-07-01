@@ -39,6 +39,8 @@ Installing Python3 on your system is easy. For detailed installation instruction
 There are two programs in this illustration, "triangle_type" and "merge_arrays", each contained in the directory with the same name respectively.
 
 
+
+
 ### triangle_type
 
 There is the golden solution in both C and Python, with filenames "golden.c" and "golden.py" respectively. There are two candidate solutions with filenames "triangle_1.py" and "triangle_2.py".
@@ -67,6 +69,9 @@ To evaluated these two candidate solutions, the following needs to be done:
 
 
 The score out of 100 will be displayed on the terminal.
+
+
+
 
 
 ### merge_arrays
