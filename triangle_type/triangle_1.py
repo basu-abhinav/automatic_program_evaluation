@@ -1,7 +1,6 @@
 import sys
 
-def solution(a:int, b:int, c:int):
-    
+def triangle_type(a:int, b:int, c:int) -> int:   
     if a >= b:
         if a >= c:
             temp = a
@@ -13,7 +12,6 @@ def solution(a:int, b:int, c:int):
             b = c
             c = temp
 
-
     if (a + b <= c) or (b + c <= a) or (a + c <= b):
         return -1
     elif c*c > a*a + b*b:
@@ -23,4 +21,5 @@ def solution(a:int, b:int, c:int):
     else:
         return 2
 
-print(solution(int(sys.argv[1]),int(sys.argv[2]),int(sys.argv[3])))
+
+print(triangle_type(int(sys.argv[1]),int(sys.argv[2]),int(sys.argv[3])))
