@@ -41,7 +41,7 @@ There are two programs in this illustration, "triangle_type" and "merge_arrays",
 
 
 
-### triangle_type
+### 1. triangle_type
 
 There is the golden solution in both C and Python, with filenames "golden.c" and "golden.py" respectively. There are two candidate solutions with filenames "triangle_1.py" and "triangle_2.py".
 
@@ -74,7 +74,7 @@ The score out of 100 will be displayed on the terminal.
 
 
 
-### merge_arrays
+### 2. merge_arrays
 
 There is the golden solution in both C and Python, with filenames "golden.c" and "golden.py" respectively. There are two candidate solutions with filenames "merge_1.py" and "merge_2.py".
 
